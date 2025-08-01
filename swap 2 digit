@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int n=s.nextInt();
+        String str=Integer.toString(n);
+        if(str.length()<2)
+            System.out.println("STDOUT");
+        else{
+            char first=str.charAt(0);
+            char second=str.charAt(1);
+            System.out.print(second);
+            System.out.print(first);
+        }
+        
+    }
+}
